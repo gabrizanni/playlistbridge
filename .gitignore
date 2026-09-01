@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local PlaylistBridge data and sensitive authentication material
+.env
+auth/
+data/
+browser.json
+oauth.json
+headers_raw.txt
+*.sqlite3
+report_trasferimento*.csv
+
