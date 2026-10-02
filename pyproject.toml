@@ -8,8 +8,20 @@ version = "0.1.0"
 description = "Local Spotify-to-YouTube Music playlist transfer helper"
 readme = "README.md"
 requires-python = ">=3.12"
+license = { file = "LICENSE" }
 authors = [
-  { name = "PlaylistBridge contributors" },
+  { name = "Gabriele Zanni", email = "232783751+gabrizanni@users.noreply.github.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Multimedia :: Sound/Audio",
 ]
 dependencies = [
   "requests>=2.32,<3",

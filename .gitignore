@@ -29,6 +29,13 @@ data/
 browser.json
 oauth.json
 headers_raw.txt
+headers_auth.json
+*headers*.json
+youtube_auth.bin
+*.bin
 *.sqlite3
-report_trasferimento*.csv
+reports/
+sessions/
+report*.csv
+
 
